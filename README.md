@@ -20,4 +20,5 @@ This repo will use two permanent branches :
 Feature branches will be transitory for adding features and will be merged into dev, then dev merged into master.
 
 
-
+# pre-commit
+The pre-commit script executes before the commit if installed in the .git/hooks/ directory.
