@@ -21,4 +21,4 @@ Feature branches will be transitory for adding features and will be merged into 
 
 
 # pre-commit
-The pre-commit script executes before the commit if installed in the .git/hooks/ directory.
+The pre-commit script executes before the commit if installed in the .git/hooks/ directory and in this context, the top level repo directory is the working directory when the script is invoked.   If the script is managed as a symbolic link however, ....
