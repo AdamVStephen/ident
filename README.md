@@ -9,3 +9,15 @@ See StackOverflow discussion : 3442874
 # scripts
 
 
+# workflow
+
+This repo will use two permanent branches :
+
+1. master for tested, working, stable examples
+1. dev for development/experimental code
+
+
+Feature branches will be transitory for adding features and will be merged into dev, then dev merged into master.
+
+
+
