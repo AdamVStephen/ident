@@ -3,11 +3,6 @@
 # Solution posted by kolypto on stackoverflow.com Q 3442874
 # Minor additions by Adam Stephen
 
-LOG=/home/astephen/.hooklogs
-echo "Running pre-commit via git commit trigger at `date`" >> $LOG
-echo "Working directory is as follows" >> $LOG
-echo `pwd` >> $LOG
-
 targetFile=${1:-gitcommit.py}
 
 set -e
